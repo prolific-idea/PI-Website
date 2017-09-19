@@ -1,0 +1,150 @@
+.centered {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.vertical-center {
+    float:none;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:-4px;
+}
+
+.carousel-fade .carousel-inner .item {
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+.main-block {
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.main-block-img{
+
+}
+
+.block {
+    height: 400px;
+}
+
+.block-img {
+    width: 100%;
+    height: 400px;
+}
+
+.subscribe-block {
+    text-align: center;
+    padding: 40px;
+}
+
+@media (min-width: 1200px) {
+    .subscribe-block {
+        margin-top: 4%
+    }
+    .action-block {
+        margin-top: 2%
+    }
+}
+
+@media (max-width: 768px) {
+    .presskit-block-info {
+        text-align: center !important;
+        margin-top: 20px;
+    }
+
+    .presskit-block-info ol {
+        padding: 0px;
+    }
+}
+
+.subscribe-block img {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+.subscribe-block button {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    width: 300px;
+    height: 100%;
+}
+
+.header-links {
+    margin-left: 85px;
+    margin-top: -60px;
+}
+
+.header-links a {
+    padding: 10px;
+}
+
+.header-links a:hover {
+    text-decoration: none;
+    transition: color 0.2s linear 0s, background 0.1s linear 0s;
+    color: #FD6819;
+}
+
+.header-project-link img {
+    width: 100px;
+    height: auto;
+}
+
+.presskit-block-info {
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.presskit-block-main {
+    margin-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.presskit-block-main img {
+    max-width:100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.presskit-block h4{
+    padding-top: 15px;
+}
+
+.modal-open {
+    overflow-y: scroll;
+}
